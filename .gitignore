@@ -1,0 +1,8 @@
+code/*/__pycache__
+code/*/*/__pycache__
+code/*/*/*/__pycache__
+code/*/.DS_Store
+code/.DS_Store
+code/*/*/.DS_Store
+code/*/*/*/.DS_Store
+.DS_Store
