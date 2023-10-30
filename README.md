@@ -18,14 +18,14 @@ Downloaded from [YahooFinance](https://pypi.org/project/yfinance/)
 
 ## Experiment
 
-#### Data 
+### Data 
 dir: '*data/CSI/*'
 
-#### Code
+### Code
 
 dir:'*code/*'
 
-##### 1st stage：Representation Learning
+#### 1st stage：Representation Learning
 
 1）Relational state inference module training: 
 
@@ -52,7 +52,7 @@ sh train_pred_short.sh
 
 **OR** directly use the model which have been pretrained in advance by us (dir:'*code/Transformer/pretrained/csi/* ')
 
-##### 2nd stage：Policy Learning
+#### 2nd stage：Policy Learning
 
 1) train SAC model (three state inference module's path can be changed in *train_rl.py* file)
 
